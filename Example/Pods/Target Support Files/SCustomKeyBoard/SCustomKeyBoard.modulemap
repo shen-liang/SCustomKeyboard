@@ -1,0 +1,6 @@
+framework module SCustomKeyBoard {
+  umbrella header "SCustomKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

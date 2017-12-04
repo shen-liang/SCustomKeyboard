@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0569A4F77FBC6BB17379EBBE9F959926 /* Pods-SCustomKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B973E9BB3A32E6076616766E1739DAD /* Pods-SCustomKeyBoard_Example-dummy.m */; };
+		0D65948D12C5C579A85342EADA1B6AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1004A8D181DFAEF11866462C85B9F76D /* SCustomKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7D6A97FF97DC098760B24EFB45C8511 /* SCustomKeyBoard.bundle */; };
+		1703F072914856DF5554B8C74AD7E7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D5CF57005CCC83260BCFB7DEC4644C3 /* SCustomKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E170BA0C007A09F867DD0EBA723815 /* SCustomKeyboardView.m */; };
+		52FB09D315BC12877C763BD8F20D5358 /* SCustomKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B91EC7DA9886911D71CF013951A23C /* SCustomKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E37A52464B53461B5599A9F37A94215 /* UIImage+STint.h in Headers */ = {isa = PBXBuildFile; fileRef = 25680ED81216D78A7A52CEDF6CC36E12 /* UIImage+STint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71836247934C59D47CBF9E100B8C15D5 /* UIImage+STint.m in Sources */ = {isa = PBXBuildFile; fileRef = BB75A6BDB68D3863EB23411BC5EF5709 /* UIImage+STint.m */; };
+		7F1766FC65CC1ADD3EDFA1C3EAC4E6FD /* SCustomKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9294C3F14A2EF08CCFA1819D14AB6D /* SCustomKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C551186542C21FA93382FDBF1F2C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B37D08A2A7D05ECF9ADC47A802963A2D /* Pods-SCustomKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FDC65EB5252C4B17061B2891951283 /* Pods-SCustomKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4233E9FFEE4B2B8147FA397465F9792 /* SCustomKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0377919C973949C921947D345290E0 /* SCustomKeyBoard-dummy.m */; };
+		D6E7233B40EFF5E7207E673C3C5D8668 /* Pods-SCustomKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD12DD87836BE100DA1C433FFD018C46 /* Pods-SCustomKeyBoard_Tests-dummy.m */; };
+		EE1312B2F7B1CB64DF05D77BABE658F5 /* Pods-SCustomKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA181F555808392EEE5E59328A7F91A7 /* Pods-SCustomKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC7A6C64004AA4DE849615B87C21D82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915D88533C59F16C2A5D7CF0913AC167;
+			remoteInfo = SCustomKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C91BAF419237DF3B1B3A333A40AF136 /* Pods-SCustomKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCustomKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F1BE2393CFB6CB453FBC6F9CB05528B /* SCustomKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCustomKeyBoard.framework; path = SCustomKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAC984E4BF6ADA18DCE76407EAF5349 /* SCustomKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCustomKeyBoard.modulemap; sourceTree = "<group>"; };
+		2044FF0C6EF19D3C6FBC4018E859C17A /* Pods_SCustomKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SCustomKeyBoard_Example.framework; path = "Pods-SCustomKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CEF384C2F649B6D60D5C89A5672E88 /* SCustomKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCustomKeyBoard.xcconfig; sourceTree = "<group>"; };
+		25680ED81216D78A7A52CEDF6CC36E12 /* UIImage+STint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+STint.h"; path = "SCustomKeyBoard/Classes/UIImage+STint.h"; sourceTree = "<group>"; };
+		4628449EC5D4D68AFBE9899C6092DEE3 /* Pods-SCustomKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCustomKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		478C0450DB25CD60BA98047D7B836DB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B973E9BB3A32E6076616766E1739DAD /* Pods-SCustomKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCustomKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		62D97B01A7277D296C836BBA0B1712D0 /* Pods-SCustomKeyBoard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCustomKeyBoard_Example-resources.sh"; sourceTree = "<group>"; };
+		6404CA028C1DBB6BF13B98068BA2E851 /* Pods-SCustomKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SCustomKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		64798236C4532B038CB77414FA5CCB2E /* Pods_SCustomKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SCustomKeyBoard_Tests.framework; path = "Pods-SCustomKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66548C6B2104607B1D09AF05C9CECD89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6882E44FBE5AFFFE6B140E06B3D71A31 /* Pods-SCustomKeyBoard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCustomKeyBoard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942C23EB85735AB6662D013F94AD9ABC /* Pods-SCustomKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCustomKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		946462247B028B045BC0AAA05292BF57 /* Pods-SCustomKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SCustomKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
+		98B91EC7DA9886911D71CF013951A23C /* SCustomKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCustomKeyboardView.h; path = SCustomKeyBoard/Classes/SCustomKeyboardView.h; sourceTree = "<group>"; };
+		9E9294C3F14A2EF08CCFA1819D14AB6D /* SCustomKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCustomKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		A03ECA2D44DB0B9F3BDC05CB988C8C17 /* Pods-SCustomKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCustomKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A29B1427F604A22B60C26A51BCC5B5 /* Pods-SCustomKeyBoard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCustomKeyBoard_Tests-resources.sh"; sourceTree = "<group>"; };
+		AA181F555808392EEE5E59328A7F91A7 /* Pods-SCustomKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCustomKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB995A18E862DEFDE5165DEB69266F9E /* Pods-SCustomKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCustomKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A0432B96689276594F3B3C318FEB68 /* Pods-SCustomKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCustomKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6568F4436CEADD0D8FEFCDA769D3FF /* SCustomKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCustomKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		BB0377919C973949C921947D345290E0 /* SCustomKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCustomKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		BB75A6BDB68D3863EB23411BC5EF5709 /* UIImage+STint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+STint.m"; path = "SCustomKeyBoard/Classes/UIImage+STint.m"; sourceTree = "<group>"; };
+		CD12DD87836BE100DA1C433FFD018C46 /* Pods-SCustomKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCustomKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF9EDD152B26D9F5D838C9531332930A /* Pods-SCustomKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCustomKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9EE14DDB9137F3C30FE3CC0C7ABD703 /* Pods-SCustomKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCustomKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3D2624E5AA3E8CE5DA63CA47C95DCB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E600D691FFD519B8DFAD168031584B5B /* Pods-SCustomKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCustomKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E7E170BA0C007A09F867DD0EBA723815 /* SCustomKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCustomKeyboardView.m; path = SCustomKeyBoard/Classes/SCustomKeyboardView.m; sourceTree = "<group>"; };
+		F5FDC65EB5252C4B17061B2891951283 /* Pods-SCustomKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCustomKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F7D6A97FF97DC098760B24EFB45C8511 /* SCustomKeyBoard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SCustomKeyBoard.bundle; path = SCustomKeyBoard/Assets/SCustomKeyBoard.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236C2FCD1B2AA890C821DD82BF8E2F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C551186542C21FA93382FDBF1F2C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C57E5B50EE710B4586E5E4B7B750E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D65948D12C5C579A85342EADA1B6AFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC38134EDBBE58E8C0696B7260DEAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1703F072914856DF5554B8C74AD7E7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C167E320BCB8AB7A4565CA253E39E00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48D35172832E9F9F0B6BCD6DEA40CE02 /* Pods-SCustomKeyBoard_Example */,
+				D9284CF41BBD05A5F1F3490629D6EFBE /* Pods-SCustomKeyBoard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FB03DBDB682A19C6B390521C8EA47F6 /* SCustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				98B91EC7DA9886911D71CF013951A23C /* SCustomKeyboardView.h */,
+				E7E170BA0C007A09F867DD0EBA723815 /* SCustomKeyboardView.m */,
+				25680ED81216D78A7A52CEDF6CC36E12 /* UIImage+STint.h */,
+				BB75A6BDB68D3863EB23411BC5EF5709 /* UIImage+STint.m */,
+				FB954627AE243329543832882B5F0A07 /* Resources */,
+				613C0884A858A1BC5AF9D9AE9A7F2325 /* Support Files */,
+			);
+			name = SCustomKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		426480F1F2756866093FA5CF29A08C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2044FF0C6EF19D3C6FBC4018E859C17A /* Pods_SCustomKeyBoard_Example.framework */,
+				64798236C4532B038CB77414FA5CCB2E /* Pods_SCustomKeyBoard_Tests.framework */,
+				1F1BE2393CFB6CB453FBC6F9CB05528B /* SCustomKeyBoard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D35172832E9F9F0B6BCD6DEA40CE02 /* Pods-SCustomKeyBoard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				478C0450DB25CD60BA98047D7B836DB1 /* Info.plist */,
+				946462247B028B045BC0AAA05292BF57 /* Pods-SCustomKeyBoard_Example.modulemap */,
+				D9EE14DDB9137F3C30FE3CC0C7ABD703 /* Pods-SCustomKeyBoard_Example-acknowledgements.markdown */,
+				4628449EC5D4D68AFBE9899C6092DEE3 /* Pods-SCustomKeyBoard_Example-acknowledgements.plist */,
+				5B973E9BB3A32E6076616766E1739DAD /* Pods-SCustomKeyBoard_Example-dummy.m */,
+				E600D691FFD519B8DFAD168031584B5B /* Pods-SCustomKeyBoard_Example-frameworks.sh */,
+				62D97B01A7277D296C836BBA0B1712D0 /* Pods-SCustomKeyBoard_Example-resources.sh */,
+				AA181F555808392EEE5E59328A7F91A7 /* Pods-SCustomKeyBoard_Example-umbrella.h */,
+				A03ECA2D44DB0B9F3BDC05CB988C8C17 /* Pods-SCustomKeyBoard_Example.debug.xcconfig */,
+				0C91BAF419237DF3B1B3A333A40AF136 /* Pods-SCustomKeyBoard_Example.release.xcconfig */,
+			);
+			name = "Pods-SCustomKeyBoard_Example";
+			path = "Target Support Files/Pods-SCustomKeyBoard_Example";
+			sourceTree = "<group>";
+		};
+		613C0884A858A1BC5AF9D9AE9A7F2325 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66548C6B2104607B1D09AF05C9CECD89 /* Info.plist */,
+				1FAC984E4BF6ADA18DCE76407EAF5349 /* SCustomKeyBoard.modulemap */,
+				20CEF384C2F649B6D60D5C89A5672E88 /* SCustomKeyBoard.xcconfig */,
+				BB0377919C973949C921947D345290E0 /* SCustomKeyBoard-dummy.m */,
+				BA6568F4436CEADD0D8FEFCDA769D3FF /* SCustomKeyBoard-prefix.pch */,
+				9E9294C3F14A2EF08CCFA1819D14AB6D /* SCustomKeyBoard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SCustomKeyBoard";
+			sourceTree = "<group>";
+		};
+		7135DE0AF8CAC566195F32C5D7537CF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB03DBDB682A19C6B390521C8EA47F6 /* SCustomKeyBoard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7135DE0AF8CAC566195F32C5D7537CF0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				426480F1F2756866093FA5CF29A08C83 /* Products */,
+				0C167E320BCB8AB7A4565CA253E39E00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9284CF41BBD05A5F1F3490629D6EFBE /* Pods-SCustomKeyBoard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D2624E5AA3E8CE5DA63CA47C95DCB5 /* Info.plist */,
+				6404CA028C1DBB6BF13B98068BA2E851 /* Pods-SCustomKeyBoard_Tests.modulemap */,
+				942C23EB85735AB6662D013F94AD9ABC /* Pods-SCustomKeyBoard_Tests-acknowledgements.markdown */,
+				B8A0432B96689276594F3B3C318FEB68 /* Pods-SCustomKeyBoard_Tests-acknowledgements.plist */,
+				CD12DD87836BE100DA1C433FFD018C46 /* Pods-SCustomKeyBoard_Tests-dummy.m */,
+				6882E44FBE5AFFFE6B140E06B3D71A31 /* Pods-SCustomKeyBoard_Tests-frameworks.sh */,
+				A7A29B1427F604A22B60C26A51BCC5B5 /* Pods-SCustomKeyBoard_Tests-resources.sh */,
+				F5FDC65EB5252C4B17061B2891951283 /* Pods-SCustomKeyBoard_Tests-umbrella.h */,
+				CF9EDD152B26D9F5D838C9531332930A /* Pods-SCustomKeyBoard_Tests.debug.xcconfig */,
+				AB995A18E862DEFDE5165DEB69266F9E /* Pods-SCustomKeyBoard_Tests.release.xcconfig */,
+			);
+			name = "Pods-SCustomKeyBoard_Tests";
+			path = "Target Support Files/Pods-SCustomKeyBoard_Tests";
+			sourceTree = "<group>";
+		};
+		FB954627AE243329543832882B5F0A07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6A97FF97DC098760B24EFB45C8511 /* SCustomKeyBoard.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B062849D03468FDE0FF5F28062A81E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1312B2F7B1CB64DF05D77BABE658F5 /* Pods-SCustomKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799B3F40CD7DF6618A56CC12D8E0D3A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37D08A2A7D05ECF9ADC47A802963A2D /* Pods-SCustomKeyBoard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC663E443D95479748439AB1E4C789C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1766FC65CC1ADD3EDFA1C3EAC4E6FD /* SCustomKeyBoard-umbrella.h in Headers */,
+				52FB09D315BC12877C763BD8F20D5358 /* SCustomKeyboardView.h in Headers */,
+				5E37A52464B53461B5599A9F37A94215 /* UIImage+STint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EC265D4CF9707A2A6215A6E014B8DC5 /* Pods-SCustomKeyBoard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2012EE820E7747F464F618217DE83544 /* Build configuration list for PBXNativeTarget "Pods-SCustomKeyBoard_Example" */;
+			buildPhases = (
+				7233483F596A0D77A00043060539DAE0 /* Sources */,
+				5C57E5B50EE710B4586E5E4B7B750E2A /* Frameworks */,
+				6B062849D03468FDE0FF5F28062A81E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E774A0D921CF8A48DC9AF027BAD6E50A /* PBXTargetDependency */,
+			);
+			name = "Pods-SCustomKeyBoard_Example";
+			productName = "Pods-SCustomKeyBoard_Example";
+			productReference = 2044FF0C6EF19D3C6FBC4018E859C17A /* Pods_SCustomKeyBoard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		915D88533C59F16C2A5D7CF0913AC167 /* SCustomKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49637996E12593DC1F91B4B1D3F1A97 /* Build configuration list for PBXNativeTarget "SCustomKeyBoard" */;
+			buildPhases = (
+				EDFD4F5787613EEC03C157A9593A0479 /* Sources */,
+				236C2FCD1B2AA890C821DD82BF8E2F34 /* Frameworks */,
+				CC663E443D95479748439AB1E4C789C3 /* Headers */,
+				55B3F4CB2AEE36C490DC347FA5DFEE2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCustomKeyBoard;
+			productName = SCustomKeyBoard;
+			productReference = 1F1BE2393CFB6CB453FBC6F9CB05528B /* SCustomKeyBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA43C99DA98663B317F08B5B3449B53E /* Pods-SCustomKeyBoard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77AA15C698654403CA0BE06D4C5698C2 /* Build configuration list for PBXNativeTarget "Pods-SCustomKeyBoard_Tests" */;
+			buildPhases = (
+				E8974480F87E34E50F1D343EA22C32F8 /* Sources */,
+				6AC38134EDBBE58E8C0696B7260DEAE0 /* Frameworks */,
+				799B3F40CD7DF6618A56CC12D8E0D3A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SCustomKeyBoard_Tests";
+			productName = "Pods-SCustomKeyBoard_Tests";
+			productReference = 64798236C4532B038CB77414FA5CCB2E /* Pods_SCustomKeyBoard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 426480F1F2756866093FA5CF29A08C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC265D4CF9707A2A6215A6E014B8DC5 /* Pods-SCustomKeyBoard_Example */,
+				CA43C99DA98663B317F08B5B3449B53E /* Pods-SCustomKeyBoard_Tests */,
+				915D88533C59F16C2A5D7CF0913AC167 /* SCustomKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B3F4CB2AEE36C490DC347FA5DFEE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1004A8D181DFAEF11866462C85B9F76D /* SCustomKeyBoard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7233483F596A0D77A00043060539DAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0569A4F77FBC6BB17379EBBE9F959926 /* Pods-SCustomKeyBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8974480F87E34E50F1D343EA22C32F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E7233B40EFF5E7207E673C3C5D8668 /* Pods-SCustomKeyBoard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFD4F5787613EEC03C157A9593A0479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4233E9FFEE4B2B8147FA397465F9792 /* SCustomKeyBoard-dummy.m in Sources */,
+				1D5CF57005CCC83260BCFB7DEC4644C3 /* SCustomKeyboardView.m in Sources */,
+				71836247934C59D47CBF9E100B8C15D5 /* UIImage+STint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E774A0D921CF8A48DC9AF027BAD6E50A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCustomKeyBoard;
+			target = 915D88533C59F16C2A5D7CF0913AC167 /* SCustomKeyBoard */;
+			targetProxy = DC7A6C64004AA4DE849615B87C21D82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E40EE99D8E98220708E38A3D00CF7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C91BAF419237DF3B1B3A333A40AF136 /* Pods-SCustomKeyBoard_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCustomKeyBoard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCustomKeyBoard_Example/Pods-SCustomKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCustomKeyBoard_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		443BE16C2E115B2B78BA3B13814B61DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB995A18E862DEFDE5165DEB69266F9E /* Pods-SCustomKeyBoard_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCustomKeyBoard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCustomKeyBoard_Tests/Pods-SCustomKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCustomKeyBoard_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CFC603DFF2EEA008F5189481B4CD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9EDD152B26D9F5D838C9531332930A /* Pods-SCustomKeyBoard_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCustomKeyBoard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCustomKeyBoard_Tests/Pods-SCustomKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCustomKeyBoard_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		668A44C7F414BB1E77DB752781303C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CEF384C2F649B6D60D5C89A5672E88 /* SCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCustomKeyBoard/SCustomKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCustomKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCustomKeyBoard/SCustomKeyBoard.modulemap";
+				PRODUCT_NAME = SCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B9C5F2358EA3D97BFE2F3B03116A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03ECA2D44DB0B9F3BDC05CB988C8C17 /* Pods-SCustomKeyBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCustomKeyBoard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCustomKeyBoard_Example/Pods-SCustomKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCustomKeyBoard_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1DFFF7B640A9B2D77BAE9D6E43A28E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CEF384C2F649B6D60D5C89A5672E88 /* SCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCustomKeyBoard/SCustomKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCustomKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCustomKeyBoard/SCustomKeyBoard.modulemap";
+				PRODUCT_NAME = SCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2012EE820E7747F464F618217DE83544 /* Build configuration list for PBXNativeTarget "Pods-SCustomKeyBoard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9C5F2358EA3D97BFE2F3B03116A0BB /* Debug */,
+				1E40EE99D8E98220708E38A3D00CF7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77AA15C698654403CA0BE06D4C5698C2 /* Build configuration list for PBXNativeTarget "Pods-SCustomKeyBoard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFC603DFF2EEA008F5189481B4CD37 /* Debug */,
+				443BE16C2E115B2B78BA3B13814B61DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49637996E12593DC1F91B4B1D3F1A97 /* Build configuration list for PBXNativeTarget "SCustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DFFF7B640A9B2D77BAE9D6E43A28E8 /* Debug */,
+				668A44C7F414BB1E77DB752781303C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

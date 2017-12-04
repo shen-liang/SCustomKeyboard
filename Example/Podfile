@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SCustomKeyBoard_Example' do
+  pod 'SCustomKeyBoard', :path => '../'
+
+  target 'SCustomKeyBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

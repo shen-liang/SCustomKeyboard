@@ -1,0 +1,16 @@
+PODS:
+  - SCustomKeyBoard (0.1.0)
+
+DEPENDENCIES:
+  - SCustomKeyBoard (from `../`)
+
+EXTERNAL SOURCES:
+  SCustomKeyBoard:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SCustomKeyBoard: c5bdda420b48116553232fd1fea9f7faf169edd2
+
+PODFILE CHECKSUM: 4496ddee3c10ceec46a75f229210db663b7cb8d0
+
+COCOAPODS: 1.3.1
